@@ -1,0 +1,58 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "petstore-challenge;realizar-get-post-y-put-request",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Realizar GET POST Y PUT request",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Primero realizamos un POST agregando una mascota",
+            "result": {
+              "duration": 1086000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "Luego hacemos un GET de la mascota añadida",
+            "result": {
+              "duration": 214000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Por ultimo realizamos un PUT a la mascota cambiandole el nombre a \"Avena\"",
+            "result": {
+              "duration": 217000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "petstore-challenge",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Petstore challenge",
+    "uri": "cypress\\e2e\\features\\pet.feature"
+  }
+]
